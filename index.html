@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Nike Store</title>
+
+</head>
+<body>
+
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="./img/sneakers.png" alt="">
+            </div>
+            
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" class="searchInput" placeholder="Search...">
+                    <img src="./img/search.png" alt="" width="20" height="20" class="searchIcon">
+                </div>
+            </div>
+
+            <div class="navItem">
+                <span class="limitedOffer">Limited Offer!</span>
+            </div>
+        </div>
+
+        <div class="navBottom">
+            <h3 class="menuItem">AIR FORCE</h3>
+            <h3 class="menuItem">JORDAN</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPIE</h3>
+        </div>
+    </nav>
+
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/air.png" alt="" class="sliderImage" draggable="false">
+                
+                <div class="sliderBg"></div>
+
+                <h1 class="sliderTitle">AIR FORCE <br> NEW <br> SEASON</h1>
+
+                <h2 class="sliderPrice">Ksh. 3,500</h2>
+
+                <a href="#product">
+                    <button class="buyButton">Buy Now</button>
+                </a>
+            </div>
+
+            <div class="sliderItem">
+                <img src="./img/jordan.png" alt="" class="sliderImage">
+                
+                <div class="sliderBg"></div>
+
+                <h1 class="sliderTitle">Jordan <br> New <br> Season</h1>
+
+                <h2 class="sliderPrice">Ksh. 4,500</h2>
+
+                <a href="#product">
+                    <button class="buyButton">Buy Now</button>
+                </a>
+            </div>
+
+            <div class="sliderItem">
+                <img src="./img/blazer.png" alt="" class="sliderImage">
+                
+                <div class="sliderBg"></div>
+
+                <h1 class="sliderTitle">Blazer <br> New <br> Season</h1>
+
+                <h2 class="sliderPrice">Ksh. 3,800</h2>
+
+                <a href="#product">
+                    <button class="buyButton">Buy Now</button>
+                </a>
+            </div>
+
+            <div class="sliderItem">
+                <img src="./img/crater.png" alt="" class="sliderImage">
+                
+                <div class="sliderBg"></div>
+
+                <h1 class="sliderTitle">Crater <br> New <br> Season</h1>
+
+                <h2 class="sliderPrice">Ksh. 4,000</h2>
+
+                <a href="#product">
+                    <button class="buyButton">Buy Now</button>
+                </a>
+            </div>
+
+            <div class="sliderItem">
+                <img src="./img/hippie.png" alt="" class="sliderImage">
+                
+                <div class="sliderBg"></div>
+
+                <h1 class="sliderTitle">Hippie <br> New <br> Season</h1>
+
+                <h2 class="sliderPrice">Ksh. 3,200</h2>
+
+                <a href="#product">
+                    <button class="buyButton">Buy Now</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <img src="./img/shipping.png" alt="" class="featureImg">
+            <span class="featureTitle">FREE SHIPPING</span>
+            <span class="featureDesc">Free Worldwide Shipping on all orders.</span>
+        </div>
+
+        <div class="feature">
+            <img src="./img/return.png" alt="" class="featureImg">
+            <span class="featureTitle">30 DAY RETURN POLICY</span>
+            <span class="featureDesc">No question return and easy refund in 14 days.</span>
+        </div>
+
+        <div class="feature">
+            <img src="./img/gift.png" alt="" class="featureImg">
+            <span class="featureTitle">GIFT CARDS</span>
+            <span class="featureDesc">Buy gift cards and use coupon codes easily.</span>
+        </div>
+
+        <div class="feature">
+            <img src="./img/contact.png" alt="" class="featureImg">
+            <span class="featureTitle">CONTACT US</span>
+            <span class="featureDesc">Keep in touch via email and our support staff.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="./img/air.png" alt="" class="productImg">
+        <div class="productDetails">
+            <h1 class="productTitle">AIR FORCE</h1>
+            <h2 class="productPrice">KSH. 3,500</h2>
+            <p class="productDesc">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum, perferendis, quasi velit ipsum nesciunt odio, pariatur facilis totam animi porro quo dolore? Quae quasi, itaque explicabo repellat ipsa aut sed.
+            </p>
+
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+
+            <div class="sizes">
+                <div class="size">42</div>
+                <div class="size">43</div>
+                <div class="size">44</div>
+            </div>
+
+            <button class="productButton">BUY NOW</button>
+        
+        </div>
+
+        <div class="payment" id="payment">
+            <h1 class="payTitle">Personal Information</h1>
+            <label for="">Name and Surname</label>
+            <input type="text" class="payInput" placeholder="John Doe">
+            
+            <label for="">Phone Number</label>
+            <input type="text" class="payInput" placeholder="0769692554">
+            
+            <label for="">Address</label>
+            <input type="text" class="payInput" placeholder="451, 40100">
+
+            <h1 class="payTitle">Card Information</h1>
+            <!-- <div class="cardIcons">
+                <img src="./img/visa.png" alt="" width="40" class="cardIcon">
+                <img src="./img/master.png" alt="" width="40" class="cardIcon">
+            </div>
+
+            <input type="password" class="payInput" placeholder="Card Number"> -->
+
+            <div class="wrapper" id="app">
+                <div class="card-form">
+                    <div class="card-list">
+                        <div class="card-item" v-bind:class="{ '-active' : isCardFlipped }">
+                            <div class="card-item__side -front">
+                                <div class="card-item__focus" v-bind:class="{'-active' : focusElementStyle }" v-bind:style="focusElementStyle" ref="focusElement"></div>
+
+                                <div class="card-item__cover">
+                                    <img v-bind:src="'https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/' + 
+                                    currentCardBackground + '.jpeg'" class="card-item__bg">
+                                </div>
+
+                                <div class="card-item__wrapper">
+                                    <div class="card-item__top">
+                                        <img src="https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/chip.png" class="card-item__chip">
+
+                                        <div class="card-item__type">
+                                            <transition name="slide-fade-up">
+                                                <img v-bind:src="'https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/' 
+                                                + getCardType + '.png'" v-if="getCardType" v-bind:key="getCardType" class="card-item__typeImg">
+                                            </transition>
+                                        </div>
+                                    </div>
+
+                                    <label for="cardNumber" class="card-item__number" ref="cardNumber">
+                                        <template v-if="getCardType === 'amex'">
+                                            <span v-for="(n, $index) in amexCardMask" :key="$index">
+                                                <transition name="slide-fade-up">
+                                                    <div class="card-item__numberItem" v-if="$index > 4 && $index < 14 && cardNumber.length > $index && n.trim() !== ''">*</div>
+
+                                                    <div class="card-item__numberItem" :class="{ '-active' : n.trim() === '' }" :key="$index" v-else-if="cardNumber.length > $index">
+                                                        {{cardNumber[$index]}}
+                                                    </div>
+
+                                                    <div class="card-item__numberItem" :class="{ '-active' : n.trim() === '' }" v-else :key="$index + 1">
+                                                        {{n}}
+                                                    </div>
+                                                </transition>
+                                            </span>
+                                        </template>
+
+                                        <template v-else>
+                                            <span v-for="(n, $index) in otherCardMask" :key="$index">
+                                                <transition name="slide-fade-up">
+                                                    <div class="card-item__numberItem" v-if="$index > 4 && $index < 15 && cardNumber.length > $index && n.trim() !== ''">*</div>
+
+                                                    <div class="card-item__numberItem" :class="{ '-active' : n.trim() === '' }" :key="$index" v-else-if="cardNumber.length > $index">
+                                                        {{cardNumber[$index]}}
+                                                    </div>
+
+                                                    <div class="card-item__numberItem" :class="{ '-active' : n.trim() === '' }" v-else :key="$index + 1">
+                                                        {{n}}
+                                                    </div>
+                                                </transition>
+                                            </span>
+                                        </template>
+                                    </label>
+
+                                    <div class="card-item__content">
+                                        <label for="cardName" class="card-item__info" ref="cardName">
+                                            <div class="card-item__holder">
+                                                Card Holder
+                                            </div>
+
+                                            <transition name="slide-fade-up">
+                                                <div class="card-item__name" v-if="cardName.length" key="1">
+                                                    <transition-group name="slide-fade-right">
+                                                        <span class="card-item__nameItem" v-for="(n, $index) in cardName.replace(/\s\s+/g, ' ')" v-if="$index === $index" v-bind:key="$index + 1">
+                                                            {{n}}
+                                                        </span>
+                                                    </transition-group>
+                                                </div>
+
+                                                <div class="card-item__name" v-else key="2">
+                                                    Full Name
+                                                </div>
+                                            </transition>
+                                        </label>
+
+                                        <div class="card-item__date" ref="cardDate">
+                                            <label for="cardMonth" class="card-item__dateTitle">
+                                                Expires
+                                            </label>
+
+                                            <label for="cardMonth" class="card-item__dateItem">
+                                                <transition name="slide-fade-up">
+                                                    <span v-if="cardMonth" v-bind:key="cardMonth">
+                                                        {{cardMonth}}
+                                                    </span>
+
+                                                    <span v-else key="2">
+                                                        MM
+                                                    </span>
+                                                </transition>
+                                            </label>
+
+                                            /
+
+                                            <label for="cardYear" class="card-item__dateItem">
+                                                <transition name="slide-fade-up">
+                                                    <span v-if="cardYear" v-bind:key="cardYear">
+                                                        {{String(cardYear).slice(2,4)}}
+                                                    </span>
+
+                                                    <span v-else key="2">
+                                                        YY
+                                                    </span>
+                                                </transition>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-item__side -back">
+                                <div class="card-item__cover">
+                                    <img v-bind:src="'https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/' + 
+                                    currentCardBackground + '.jpeg'" class="card-item__bg">
+                                </div>
+
+                                <div class="card-item__band"></div>
+
+                                <div class="card-item__cvv">
+                                    <div class="card-item__cvvTitle">CVV</div>
+
+                                    <div class="card-item__cvvBand">
+                                        <span v-for="(n, $index) in cardCvv" :key="$index">*</span>
+                                    </div>
+
+                                    <div class="card-item__type">
+                                        <img v-bind:src="'https://raw.githubusercontent.com/muhammederdem/credit-card-form/master/src/assets/images/' + 
+                                        getCardType + '.png'" v-if="getCardType" class="card-item__typeImg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-form__inner">
+                        <div class="card-input">
+                            <label for="cardNumber" class="card-input__label">
+                                Card Number
+                            </label>
+                            <input type="text" id="cardNumber" class="card-input__input" v-mask="generateCardNumberMask" v-model="cardNumber" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardNumber" autocomplete="off">
+                        </div>
+
+                        <div class="card-input">
+                            <label for="cardName" class="card-input__label">
+                                Card Holders
+                            </label>
+                            <input type="text" id="cardName" class="card-input__input" v-model="cardName" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardName" autocomplete="off">
+                        </div>
+
+                        <div class="card-form__row">
+                            <div class="card-form__col">
+                                <div class="card-form__group">
+                                    <label for="cardMonth" class="card-input__label">
+                                        Expiration Date
+                                    </label>
+                                    <select class="card-input__input -select" id="cardMonth" v-model="cardMonth" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardDate">
+                                        <option value="" disabled selected>Month</option>
+                                        <option v-bind:value="n < 10 ? '0' + n : n" v-for="n in 12" v-bind:disabled="n < minCardMonth" v-bind:key="n">
+                                            {{n < 10 ? '0' + n : n}}
+                                        </option>
+                                    </select>
+
+                                    <select class="card-input__input -select" id="cardYear" v-model="cardYear" v-on:focus="focusInput" v-on:blur="blurInput" data-ref="cardDate">
+                                        <option value="" disabled selected>Year</option>
+                                        <option v-bind:value="$index + minCardYear" v-for="(n, $index) in 12" v-bind:key="n">
+                                            {{$index + minCardYear}}
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="card-form__col -cvv">
+                                <div class="card-input">
+                                    <label for="cardCvv" class="card-input__label">CVV</label>
+                                    <input type="text" class="card-input__input" id="cardCvv" v-mask="'####'" maxlength="4" v-model="cardCvv" v-on:focus="flipCard(true)" v-on:blur="flipCard(false)" autocomplete="off">
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="payButton" type="submit">
+                            Checkout
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+            <span class="close">X</span>
+
+        </div>
+    </div>
+
+    <!-- <div class="galleries">
+        <h1 class="galleryTitle">Coming Soon!</h1>
+
+        <div class="gallery">
+            <div class="galleryItem">
+                <img src="./img/unsplash-4.jpg" alt="" class="galleryImg">
+                <h2 class="shoeName">AirForce Customs</h2>
+            </div>
+    
+            <div class="galleryItem">
+                <img src="./img/unsplash-12.jpg" alt="" class="galleryImg">
+                <h2 class="shoeName">AirMax 90s</h2>
+            </div>
+    
+            <div class="galleryItem">
+                <h1 class="galleryTitle">Be Yourself!</h1>
+                <img src="./img/unsplash-6.jpg" alt="" class="galleryImg">
+            </div>
+    
+            <div class="galleryItem">
+                <h1 class="galleryTitle">Be Yourself!</h1>
+                <img src="./img/unsplash-14.jpg" alt="" class="galleryImg">
+            </div>
+    
+            <div class="galleryItem">
+                <h1 class="galleryTitle">Be Yourself!</h1>
+                <img src="./img/unsplash-9.jpg" alt="" class="galleryImg">
+            </div>
+    
+            <div class="galleryItem">
+                <h1 class="galleryTitle">Be Yourself!</h1>
+                <img src="./img/unsplash-13.jpg" alt="" class="galleryImg">
+            </div>
+    
+            <div class="galleryItem">
+                <h1 class="galleryTitle">Be Yourself!</h1>
+                <img src="./img/unsplash-11.jpg" alt="" class="galleryImg">
+            </div>
+        </div>
+    </div> -->
+
+    <h1 class="title">Coming Soon!</h1>
+    <div class="slider_2" x-data="{start: true, end: false}">
+        <div class="slider__content" x-ref="slider" x-on:scroll.debounce="$refs.slider.scrollLeft == 0 ? start = true : start = false; Math.abs(($refs.slider.scrollWidth - $refs.slider.offsetWidth) - $refs.slider.scrollLeft) < 5 ? end = true : end = false;">
+            <div class="slider__item">
+                <img class="slider__image" src="./img/air force 1 low.png" alt="Image">
+
+                <div class="slider__info">
+                    <h2>AIRFORCE 1 LOW</h2>
+                    <p>By 
+                        <a href="https://www.nike.com/w/air-force-1-shoes-5sj3yzy7ok">Nike, Inc.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <img class="slider__image" src="./img/jordan trainers prime.png" alt="Image">
+
+                <div class="slider__info">
+                    <h2>JORDAN PRIME</h2>
+                    <p>By 
+                        <a href="https://stockx.com/air-jordan-trainer-prime-white-pure-platinum">Nike, Inc.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <img class="slider__image" src="./img/nike air max 90 by you shoe.png" alt="Image">
+
+                <div class="slider__info">
+                    <h2>AIR MAX 90</h2>
+                    <P>By 
+                        <a href="https://www.nike.com/w?q=air%20max%2090&vst=air%20max">Nike, Inc.</a>
+                    </P>
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <img class="slider__image" src="./img/nike presto extreme.png" alt="Image">
+
+                <div class="slider__info">
+                    <h2>Presto Extreme</h2>
+                    <p>By 
+                        <a href="https://www.nike.com/w/presto-shoes-9o4cyzy7ok">Nike, Inc.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <img class="slider__image" src="./img/nike.png" alt="Image">
+
+                <div class="slider__info">
+                    <h2>AIR MAX 97</h2>
+                    <p>By 
+                        <a href="https://www.nike.com/w?q=airmax%2097&vst=airmax">Nike, Inc.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <img class="slider__image" src="./img/aj.webp" alt="Image">
+
+                <div class="slider__info">
+                    <h2>AIR JORDAN MID</h2>
+                    <p>By 
+                        <a href="https://www.nike.com/w?q=air%20jordan%201%20mid%20red%20and%20black&vst=air%20jordan%201%20mid%20red">Nike, Inc.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <img class="slider__image" src="./img/revolution 6.png" alt="Image">
+
+                <div class="slider__info">
+                    <h2>REVOLUTION 6</h2>
+                    <p>By 
+                        <a href="https://www.nike.com/w?q=nike%20revolution%206&vst=REVOLUTION">Nike, Inc.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <img class="slider__image" src="./img/air 270.png" alt="Image">
+
+                <div class="slider__info">
+                    <h2>AIR MAX 270</h2>
+                    <p>By 
+                        <a href="https://www.nike.com/w?q=air%20max%20270&vst=270">Nike, Inc.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <img class="slider__image" src="./img/retro red thunder.webp" alt="Image">
+
+                <div class="slider__info">
+                    <h2>J4 RED THUNDER</h2>
+                    <p>By 
+                        <a href="https://www.nike.com/w?q=jordan%204&vst=jordan%204">Nike, Inc.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <img class="slider__image" src="./img/retro military black.png" alt="Image">
+
+                <div class="slider__info">
+                    <h2>J4 MILITARY BLACK</h2>
+                    <p>By 
+                        <a href="https://www.nike.com/w?q=jordan%204%20retro&vst=jordan%204">Nike, Inc.</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="slider__item">
+                <img class="slider__image" src="./img/sn.png" alt="Image">
+
+                <div class="slider__info">
+                    <h2>SB DORAEMON</h2>
+                    <p>By 
+                        <a href="https://www.nike.com/w?q=air%20jordan%20sb%20dunk%20high&vst=sb%20dunk%20high">Nike, Inc.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider__nav">
+            <button class="slider__nav__button" x-on:click="$refs.slider.scrollBy({left: $refs.slider.offsetWidth * -1, behavior: 'smooth'});" x-bind:class="start ? '' : 'slider__nav__button--active'">
+                Previous
+            </button>
+    
+            <button class="slider__nav__button" x-on:click="$refs.slider.scrollBy({left: $refs.slider.offsetWidth, behavior: 'smooth'});" x-bind:class="end ? '' : 'slider__nav__button--active'">
+                Next
+            </button>
+        </div>
+    </div>
+
+    <div class="newSeason">
+        <div class="nsItem">
+            <img src="./img/unsplash-7.jpg" class="nsImg" alt="">
+        </div>
+
+        <div class="nsItem">
+            <h3 class="nsTitleSm">SUMMER NEW SEASON</h3>
+            <h1 class="nsTitle">New Season</h1>
+            <h1 class="nsTitle">New Collection</h1>
+
+            <a href="#nav">
+                <button class="nsButton">Choose Your Style</button>
+            </a>
+        </div>
+
+        <div class="nsItem">
+            <img src="./img/unsplash-5.jpg" class="nsImg" alt="">
+        </div>
+    </div>
+
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">About Us</h1>
+
+                <ul class="fMenuList">
+                    <li class="fListItem">Company</li>
+                    <li class="fListItem">Contact</li>
+                    <li class="fListItem">Careers</li>
+                    <li class="fListItem">Affiliate</li>
+                    <li class="fListItem">Stores</li>
+                </ul>
+            </div>
+
+            
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Useful Links</h1>
+
+                <ul class="fMenuList">
+                    <li class="fListItem">Support</li>
+                    <li class="fListItem">Refund</li>
+                    <li class="fListItem">FAQ</li>
+                    <li class="fListItem">Feedback</li>
+                    <li class="fListItem">Stories</li>
+                </ul>
+            </div>
+
+            
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">Products</h1>
+
+                <ul class="fMenuList">
+                    <li class="fListItem">Air Force</li>
+                    <li class="fListItem">Air Jordan</li>
+                    <li class="fListItem">Blazer</li>
+                    <li class="fListItem">Crater</li>
+                    <li class="fListItem">Hippie</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Subscribe to our newsletter</h1>
+
+                <div class="fMail">
+                    <input type="text" placeholder="your@email.com" class="fInput">
+                    <button class="fButton">Join!</button>
+                </div>
+            </div>
+
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle">Follow Us</h1>
+
+                <div class="fIcons">
+                    <a href="https://www.facebook.com/kaby.kaby.963/" target="_blank" title="Facebook">
+                        <img src="./img/facebook.png" alt="" class="fIcon">
+                    </a>
+
+                    <a href="https://twitter.com/mckaballah" target="_blank" title="Twitter">
+                        <img src="./img/twitter.png" alt="" class="fIcon">
+                    </a>
+
+                    <a href="https://www.instagram.com/_mc.kaballah_/" target="_blank" title="Instagram">
+                        <img src="./img/instagram.png" alt="" class="fIcon">
+                    </a>
+                    
+                    <a href="https://wa.me/+254769692554" target="_blank" title="Whatsapp">
+                        <img src="./img/whatsapp.png" alt="" class="fIcon">
+                    </a>
+                </div>
+            </div>
+
+            <div class="footerRightMenu">
+                <span class="copyright">
+                    &copy; 2023 Nike, Inc. All Rights Reserved.
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+    <script src="https://unpkg.com/vue-the-mask@0.11.1/dist/vue-the-mask.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.10.2/cdn.js'></script>
+
+    <script>
+        new Vue({
+            el: "#app",
+            data() {
+                return {
+                    currentCardBackground: Math.floor(Math.random()* 25 + 1), // just for fun :D
+                    cardName: "",
+                    cardNumber: "",
+                    cardMonth: "",
+                    cardYear: "",
+                    cardCvv: "",
+                    minCardYear: new Date().getFullYear(),
+                    amexCardMask: "#### ###### #####",
+                    otherCardMask: "#### #### #### ####",
+                    cardNumberTemp: "",
+                    isCardFlipped: false,
+                    focusElementStyle: null,
+                    isInputFocused: false
+                };
+            },
+    
+            // mounted() {
+            //     this.cardNumberTemp = this.otherCardMask;
+            //     document.getElementById("cardNumber").focus();
+            // },
+    
+            computed: {
+                getCardType () {
+                    let number = this.cardNumber;
+                    let re = new RegExp("^4");
+                    if (number.match(re) != null) return "visa";
+    
+                    re = new RegExp("^(34|37)");
+                    if (number.match(re) != null) return "amex";
+    
+                    re = new RegExp("^5[1-5]");
+                    if (number.match(re) != null) return "mastercard";
+    
+                    re = new RegExp("^6011");
+                    if (number.match(re) != null) return "discover";
+                    
+                    re = new RegExp('^9792')
+                    if (number.match(re) != null) return 'troy'
+    
+                    return "visa"; // default type
+                },
+                    generateCardNumberMask () {
+                        return this.getCardType === "amex" ? this.amexCardMask : this.otherCardMask;
+                },
+    
+                minCardMonth () {
+                    if (this.cardYear === this.minCardYear) return new Date().getMonth() + 1;
+                    return 1;
+                }
+            },
+    
+            watch: {
+                cardYear () {
+                if (this.cardMonth < this.minCardMonth) {
+                    this.cardMonth = "";
+                }
+                }
+            },
+    
+            methods: {
+                flipCard (status) {
+                    this.isCardFlipped = status;
+                },
+    
+                focusInput (e) {
+                    this.isInputFocused = true;
+    
+                    let targetRef = e.target.dataset.ref;
+                    let target = this.$refs[targetRef];
+    
+                    this.focusElementStyle = {
+                        width: `${target.offsetWidth}px`,
+                        height: `${target.offsetHeight}px`,
+                        transform: `translateX(${target.offsetLeft}px) translateY(${target.offsetTop}px)`
+                    }
+                },
+    
+                blurInput() {
+                    let vm = this;
+    
+                    setTimeout(() => {
+                        if (!vm.isInputFocused) {
+                        vm.focusElementStyle = null;
+                        }
+                    }, 300);
+                    vm.isInputFocused = false;
+                }
+            }
+        });
+    
+    </script>
+
+    <script>
+        document.addEventListener("click", function(event) {
+            // If user either clicks X button OR clicks outside the modal window, then close modal by calling closeModal()
+            if (event.target.matches(".close") || !event.target.closest(".payment")) {
+                closeModal();
+            }
+        }, false)
+
+        function closeModal() {
+            document.querySelector(".payment").style.display = "none";
+        }
+
+        document.addEventListener("click", function(event) {
+            if(event.target.matches(".productButton")) {
+                openPayment();
+            }
+        })
+
+        function openPayment() {
+            document.querySelector(".payment").style.display = "flex";
+        }
+
+    </script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    
+</body>
+</html>
