@@ -1,5 +1,104 @@
 const wrapper = document.querySelector(".sliderWrapper");
 const menuItems = document.querySelectorAll(".menuItem");
+const navBar = document.getElementById("navBar");
+const mySideNav = document.getElementById("mySideNav");
+const mainDocument = document.getElementById("main");
+const iconBar = document.getElementById("iconBar");
+const productMenu = document.getElementById("products");
+const aboutMenu = document.getElementById("about");
+
+// function openNav(x) {
+//     document.getElementById("mySideNav").style.width = "250px";
+//     x.classList.toggle("change");
+// }
+
+function openNav() {
+    mySideNav.style.width = "250px";
+    mainDocument.style.marginLeft = "250px";
+    navBar.classList.remove("navBar");
+    navBar.classList.add("change");
+
+    document.addEventListener("click", function(event) {
+        if (event.target.matches(".closebtn") || !event.target.closest(".sideNav")) {
+            closeSideNav();
+        }
+    }, true)
+}
+
+function closeNav() {
+    mySideNav.style.width = "0";
+    productMenu.style.width = "0";
+    aboutMenu.style.width = "0";
+    mainDocument.style.marginLeft = "0";
+    navBar.classList.remove("change");
+    navBar.classList.add("navBar");
+}
+
+// function openIconBar() {
+//     iconBar.style.width = "90px";
+// }
+
+// function closeIconBar() {
+//     iconBar.style.width = "0";
+// }
+
+function openProducts() {
+    mySideNav.style.width = "250px";
+    productMenu.style.width = "250px";
+    mainDocument.style.marginLeft = "250px";
+}
+
+function closeProducts() {
+    mySideNav.style.width = "250px";
+    productMenu.style.width = "0";
+    mainDocument.style.marginLeft = "250px";
+}
+
+function openAbout() {
+    mySideNav.style.width = "250px";
+    aboutMenu.style.width = "250px";
+    mainDocument.style.marginLeft = "250px";
+}
+
+function closeAbout() {
+    mySideNav.style.width = "250px";
+    aboutMenu.style.width = "0";
+    mainDocument.style.marginLeft = "250px";
+}
+
+window.onscroll = function() {stickyNavbar()};
+
+var nav = document.getElementById("nav");
+var sticky = nav.offsetTop;
+
+function stickyNavbar() {
+    if (window.pageYOffset >= sticky) {
+        nav.classList.add("sticky")
+    } else {
+        nav.classList.remove("sticky");
+    }
+}
+
+// function showNarbar(x) {
+
+// }
+
+function closeSideNav() {
+    document.querySelector(".sideNav").style.width = "0";
+    mainDocument.style.marginLeft = "0";
+    navBar.classList.remove("change");
+    navBar.classList.add("navBar");
+}
+
+document.addEventListener("click", function(event) {
+    if(event.target.matches(".navBar")) {
+        openSideNav();
+    }
+})
+
+function openSideNav() {
+    document.querySelector(".sideNav").style.width = "250px";
+}
 
 const products = [{
     id: 1,
