@@ -13,7 +13,7 @@ This repository contains the front-end code for a basic Nike Store website, show
 
 **Getting Started:**
 
-1. **Clone the repository:**  `git clone https://github.com/your-username/nike-store.git`
+1. **Clone the repository:**  `git clone https://github.com/kaballah/nike_store.git`
 2. **Open the index.html file in your browser:** This will launch the website.
 3. **Explore the code:**  Browse through the HTML, CSS, and JavaScript files to understand the structure and functionality.
 
